@@ -1,0 +1,163 @@
+/*fb-header style start*/
+.header{
+    background:linear-gradient(yellow,red);
+	overflow:hidden;
+	padding-top:10px;
+	padding-bottom:5px;
+	border-bottom:1px solid #133783;
+}
+.mid{
+	width:80%;
+	margin:0 auto;
+}
+
+.logo img{
+	width:100px;
+}
+.logo{
+	width:60%;
+	float:left;
+}
+h2{
+	
+	font-size: 40px;
+}
+
+/*fb-header style end*/
+
+/*navbar start*/
+
+.menu-second{
+	margin:0px auto;
+	width:960px;
+}
+ul{
+	padding:0;
+}
+.first-child{
+	min-height:38px;
+	background:black;
+}
+.first-child li{
+	list-style-type:none;
+	float:left;
+	position:relative;
+}
+.first-child li a{
+	text-decoration:none;
+	padding:10px 30px;
+	background:black;
+	color:white;
+	display:block;
+	transition:0.3s all ease;
+}
+.first-child li a:hover{
+	color:black;
+	background:grey;
+	font-weight:bold;
+}
+.first-child li .second-child{	
+	position:absolute;
+	left:-999px;
+}
+.first-child li .second-child li{
+	float:none;
+	width:150px;
+}
+.first-child li:hover .second-child{
+	left:0;	
+}
+.first-child li .second-child li .third-child{
+	position:absolute;
+	top:-9999px;
+}
+.first-child li .second-child li:hover .third-child{
+	left:150px;
+	top:0;
+}
+
+.first-child li .fourth-child {	
+	position:absolute;
+	left:-999px;
+}
+
+.first-child li:hover .fourth-child{
+	left:0;	
+
+
+}
+.first-child li .fourth-child li{
+	float:none;
+	width:150px;
+}
+
+.first-child li .fourth-child li .fifth-child{
+	
+	position: absolute;
+	top: -9999px;
+}
+
+.first-child li .fourth-child li:hover .fifth-child{
+	left:150px;
+	top:0;
+}
+
+.first-child li .sixth-child {	
+	position: absolute;
+	left: -9999px;
+}
+.first-child li:hover .sixth-child{	
+	left: 0;
+}
+
+/*navbar end*/
+
+/*body-start*/
+
+.body{
+	background: linear-gradient(#fff, #d4d8e8);
+	overflow:hidden;
+	padding:20px 0;
+}
+
+.title-1 h2{
+	text-align: justify;
+	font-size: 35px;
+}
+
+.title-1 img{	
+	width: 60%;
+}
+.title-1 p{	
+	font-size: 20px;
+	text-align: justify;
+}
+
+.button{
+	
+	background: #73AFB9;
+	color: black;
+	text-decoration:none;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-weight:bold;
+	padding:10px;
+}
+.button:hover{
+	
+	background: #FF803A;
+}
+
+.title-2 h2{
+	text-align: justify;
+	font-size: 35px;
+}
+
+
+.title-2 p{
+	
+	font-size: 20px;
+	text-align: justify;
+}
+
+/*body-end*/
