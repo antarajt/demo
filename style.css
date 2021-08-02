@@ -27,12 +27,9 @@ h2{
 
 /*navbar start*/
 
-.menu-second{
+	.menu-second{
 	margin:0px auto;
 	width:960px;
-}
-ul{
-	padding:0;
 }
 .first-child{
 	min-height:38px;
@@ -58,7 +55,7 @@ ul{
 }
 .first-child li .second-child{	
 	position:absolute;
-	left:-999px;
+	left:-9999px;
 }
 .first-child li .second-child li{
 	float:none;
@@ -76,7 +73,8 @@ ul{
 	top:0;
 }
 
-.first-child li .fourth-child {	
+.first-child li .fourth-child {
+	
 	position:absolute;
 	left:-999px;
 }
@@ -102,11 +100,13 @@ ul{
 	top:0;
 }
 
-.first-child li .sixth-child {	
+.first-child li .sixth-child {
+	
 	position: absolute;
 	left: -9999px;
 }
-.first-child li:hover .sixth-child{	
+.first-child li:hover .sixth-child{
+	
 	left: 0;
 }
 
@@ -125,10 +125,13 @@ ul{
 	font-size: 35px;
 }
 
-.title-1 img{	
+.title-1 img{
+	
+	
 	width: 60%;
 }
-.title-1 p{	
+.title-1 p{
+	
 	font-size: 20px;
 	text-align: justify;
 }
@@ -159,5 +162,16 @@ ul{
 	font-size: 20px;
 	text-align: justify;
 }
+
+
+/*slider css*/
+
+.slider-wrapper {
+	
+	margin: auto;
+	width: 960px;
+}
+/*slider css*/
+
 
 /*body-end*/
