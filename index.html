@@ -4,6 +4,16 @@
 	<meta charset="UTF-8">
 	<title></title>
 	<link rel="stylesheet" href="style.css" />
+	
+	
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	
+	
 </head>
 <body>
 	
@@ -77,7 +87,30 @@
 		</ul>
 		</div>
 	
-	
+			
+			
+			<div id="wrapper">
+		
+		
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+			
+                <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+				
+                <img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" />
+				
+                <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+				
+                <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+				
+            </div>
+        </div>
+
+		</div>
+			
+			
+			
 	<!--navbar end-->
 	
 	<!--body  start-->
@@ -115,7 +148,24 @@
 			</div>
 		
 		</div>
+		
+		
+		
+		
 	
 	<!--body end-->
 </body>
+
+
+		<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+	
+
+
+
 </html>
