@@ -1,1 +1,1 @@
-https://github.com/antorajt/demo
+https://antorajt.github.io/demo/
